@@ -8,7 +8,7 @@ members = [
         "name": "Harlin Janold C R",
         "role_meta": "Team Leader • ECE",
         "role_main": "Team Leader & System Architect",
-        "email": "Janoldjanocr@gmail.com",
+        "email": "janoldjanocr@gmail.com",
         "year": "2025-26",
         "skills": ["Solution Design & Integration", "Mentor Coordination", "Hardware-Software-AI Integration"],
         "links": [
@@ -33,7 +33,7 @@ members = [
         "name": "R J Nishmah",
         "role_meta": "AI & Data Science",
         "role_main": "AI / ML Engineer (Brix Prediction)",
-        "email": "Nishmah2192004@gmail.com",
+        "email": "nishmah2192004@gmail.com",
         "year": "IV Year AI&DS",
         "skills": ["Dataset Creation", "NIR to °Brix Model Development", "Maturity Index Modeling", "Edge AI Deployment"],
         "links": [
@@ -46,7 +46,7 @@ members = [
         "name": "Jeshwin David C",
         "role_meta": "AI & Data Science",
         "role_main": "Software & UI/UX Developer",
-        "email": "Jeshwindavid5@gmail.com",
+        "email": "jeshwindavid5@gmail.com",
         "year": "3rd Year AI&DS",
         "skills": ["Raspberry Pi Software", "User Interface Design", "Bilingual Workflow", "QR & Data Logging"],
         "links": [
