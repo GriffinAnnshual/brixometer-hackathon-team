@@ -22,25 +22,31 @@ Marthandam, Tamil Nadu
 
 ## 🚀 Live Demo
 
-Visit our team page: [GitHub Pages URL will be here]
+Visit our team page: [GitHub Pages URL]
 
-## 📁 Repository Structure
+## 📁 Repository Contents
 
-```
-├── team.html              # Main team portfolio page
-├── portfolio.html         # Project portfolio page
-├── build_team_page.py     # Build script for team page
-├── assets/                # Team member images
-└── README.md             # This file
-```
+- `team.html` - Team portfolio page (self-contained with embedded images)
+- `build_team_page.py` - Build script to regenerate the page
+- `README.md` - This file
 
-## 🛠️ Building the Team Page
+## 🛠️ Rebuilding the Page
 
-The team page is generated using a Python script that embeds all images as Base64:
+All team member images are embedded as Base64 in the HTML. To rebuild:
 
 ```bash
 python3 build_team_page.py
 ```
+
+**Note:** You'll need the original images in an `assets/` folder to rebuild.
+
+## ✨ Features
+
+- Self-contained single HTML file
+- No external dependencies (except Google Fonts)
+- Responsive design with glassmorphism effects
+- Dark theme with modern animations
+- All images embedded as Base64
 
 ## 📄 License
 
