@@ -9,7 +9,7 @@ members = [
         "role_meta": "Team Leader • ECE",
         "role_main": "Team Leader & System Architect",
         "email": "janoldjanocr@gmail.com",
-        "year": "2025-26",
+        "dept": "ECE",
         "skills": ["Solution Design & Integration", "Mentor Coordination", "Hardware-Software-AI Integration"],
         "links": [
             ("GitHub", "https://github.com/harlinjanold"),
@@ -22,7 +22,7 @@ members = [
         "role_meta": "Computer Science",
         "role_main": "Embedded Hardware & IoT Engineer",
         "email": "febinanto61@gmail.com",
-        "year": "2022-26",
+        "dept": "CSE",
         "skills": ["Sensor Integration (NIR, Camera, Force)", "PCB Design & Wiring", "Power Systems", "Device Enclosure"],
         "links": [
             ("LinkedIn", "https://www.linkedin.com/in/febinantokk")
@@ -34,7 +34,7 @@ members = [
         "role_meta": "AI & Data Science",
         "role_main": "AI / ML Engineer (Brix Prediction)",
         "email": "nishmah2192004@gmail.com",
-        "year": "IV Year AI&DS",
+        "dept": "AI&DS",
         "skills": ["Dataset Creation", "NIR to °Brix Model Development", "Maturity Index Modeling", "Edge AI Deployment"],
         "links": [
             ("GitHub", "https://github.com/R-J-Nishmah"),
@@ -47,7 +47,7 @@ members = [
         "role_meta": "AI & Data Science",
         "role_main": "Software & UI/UX Developer",
         "email": "jeshwindavid5@gmail.com",
-        "year": "3rd Year AI&DS",
+        "dept": "AI&DS",
         "skills": ["Raspberry Pi Software", "User Interface Design", "Bilingual Workflow", "QR & Data Logging"],
         "links": [
             ("LinkedIn", "https://www.linkedin.com/in/jeshwin-david-6b2283320")
@@ -59,7 +59,7 @@ members = [
         "role_meta": "Electrical & Electronics",
         "role_main": "Field Testing & Agriculture Domain Specialist",
         "email": "lashasree88@gmail.com",
-        "year": "2025-26",
+        "dept": "EEE",
         "skills": ["Field Trials with Farmers/Mills", "Refractometer Ground Truth Collection", "Real-Condition Validation"],
         "links": [],
         "img": "team_sree.png"
@@ -69,7 +69,7 @@ members = [
         "role_meta": "Electrical & Electronics",
         "role_main": "Documentation, Operations & IP Coordinator",
         "email": "naveinshyam99@gmail.com",
-        "year": "2022-26",
+        "dept": "EEE",
         "skills": ["Presentations & Reports", "Videos & Timelines", "BoM & Costing", "Novelty & IP Documentation"],
         "links": [
             ("LinkedIn", "http://linkedin.com/in/navein-shyam-427a7226b")
@@ -117,7 +117,7 @@ for m in members:
             
             <div class="info-group">
                 <div class="email">{m['email']}</div>
-                <div class="year">Batch: {m['year']}</div>
+                <div class="year">Department: {m['dept']}</div>
             </div>
 
             <div class="divider"></div>
